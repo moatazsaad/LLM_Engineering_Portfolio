@@ -1,6 +1,3 @@
-Here's your updated **README** with Gradio added under **Usage** and **Technologies Used**:  
-
-```md
 # 🌐 Website Summarizer  
 
 ## 📌 Overview  
@@ -129,4 +126,3 @@ The New York Times (NYT) is an established American newspaper that provides comp
 
 #### **Conclusion**
 The New York Times serves as a reliable resource for anyone seeking reliable and varied news coverage. Its diverse sections ensure that there is content available for nearly every reader's interest, and its commitment to quality journalism is reflected throughout its extensive offerings.
-```
