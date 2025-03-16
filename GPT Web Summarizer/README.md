@@ -24,7 +24,7 @@ Ensure you have the following installed:
 ### Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/website-summarizer.git
+   git clone https://github.com/moatazsaad/website-summarizer.git
    cd website-summarizer
    ```
 2. Install required dependencies:
