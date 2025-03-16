@@ -64,10 +64,10 @@ This will launch a local server. Open the provided URL in a browser to use the s
 
 ## Example Output
 For the URL `https://www.nytimes.com/` with the **Key Points** style:
-```
+
 ### Key Points
 - **U.S. News**: Covers politics, health, climate, and sports.
 - **World News**: International updates across multiple regions.
 - **Business & Tech**: Financial and technological developments.
 - **Opinion & Lifestyle**: Editorials, travel, arts, and entertainment.
-```
+
