@@ -60,7 +60,8 @@ Ensure you have the following installed:
 - **OpenAI GPT**  
 - **BeautifulSoup** (for web scraping)  
 - **Requests** (for fetching web pages)  
-- **Dotenv** (for API key management)  
+- **Dotenv** (for API key management)
+- **Gradio** (for web-based UI)  
 
 ---
 
