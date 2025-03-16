@@ -57,10 +57,32 @@ Ensure you have the following installed:
 - **Dotenv** (for API key management)
 
 ## Example Output
-For the URL `https://www.nytimes.com/` with the **Key Points** style:
+For the URL `https://www.nytimes.com/` with the **Detailed** style:
 
-### Key Points
-- **U.S. News**: Covers politics, health, climate, and sports.
-- **World News**: International updates across multiple regions.
-- **Business & Tech**: Financial and technological developments.
-- **Opinion & Lifestyle**: Editorials, travel, arts, and entertainment.
+## Detailed Summary of The New York Times Website  
+
+The New York Times (NYT) serves as a comprehensive source of news and information, covering topics such as U.S. and international news, politics, business, technology, arts, and lifestyle.  
+
+### 📰 Main Sections:  
+- **U.S. News:** Coverage on politics, education, health, and climate.  
+- **World News:** Updates from Africa, the Americas, Asia, and Europe.  
+- **Business:** Stock market trends, technology impacts, and finance.  
+- **Arts & Lifestyle:** Literature, music, food, and travel.  
+
+### 🎙️ Newsletter & Podcast Offerings:  
+- **The Morning:** A daily news briefing.  
+- **The Interpreter:** Weekly analysis of global events.  
+
+### 🎥 Multimedia & Special Reports:  
+- **Video content & Interactive articles** for engaging storytelling.  
+- **Investigative journalism** uncovering social and political issues.  
+
+### 🎭 Opinion & Culture:  
+- **Columns and guest essays** on major global topics.  
+- **Cultural critiques, book reviews, and lifestyle recommendations.**  
+
+### 💡 Subscription Model:  
+NYT operates on a **subscription-based model**, offering exclusive articles, podcasts, and multimedia content.  
+
+**Conclusion:**  
+The New York Times remains a leading source for reliable journalism, in-depth reports, and diverse content offerings.  
