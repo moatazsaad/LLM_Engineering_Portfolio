@@ -1,3 +1,6 @@
+Here's your updated **README** with Gradio added under **Usage** and **Technologies Used**:  
+
+```md
 # 🌐 Website Summarizer  
 
 ## 📌 Overview  
@@ -11,6 +14,7 @@
   - **Detailed**: In-depth explanation.  
   - **Q&A**: Conversational format.  
 - ✅ **Works in Jupyter Notebook** for easy interaction.  
+- ✅ **Provides a Gradio web interface** for user-friendly summarization.  
 
 ---
 
@@ -55,12 +59,34 @@ Ensure you have the following installed:
 
 ---
 
+### 🔹 Running with Gradio  
+You can use **Gradio** to interact with the summarizer through a simple web interface.  
+
+1. Run the following code inside the notebook:  
+   ```python
+   import gradio as gr  
+
+   def summarize_website(url, style):  
+       return display_summary(url, style)  
+
+   gr.Interface(  
+       fn=summarize_website,  
+       inputs=["text", gr.Radio(["Key Points", "Detailed", "Q&A"])],  
+       outputs="text",  
+       title="Website Summarizer",  
+       description="Enter a URL and select a summary style."  
+   ).launch()  
+   ```  
+2. A browser tab will open with an interactive UI where you can enter a URL and select a summary style.  
+
+---
+
 ## 🛠 Technologies Used  
 - **Python**  
 - **OpenAI GPT**  
 - **BeautifulSoup** (for web scraping)  
 - **Requests** (for fetching web pages)  
-- **Dotenv** (for API key management)
+- **Dotenv** (for API key management)  
 - **Gradio** (for web-based UI)  
 
 ---
@@ -103,4 +129,4 @@ The New York Times (NYT) is an established American newspaper that provides comp
 
 #### **Conclusion**
 The New York Times serves as a reliable resource for anyone seeking reliable and varied news coverage. Its diverse sections ensure that there is content available for nearly every reader's interest, and its commitment to quality journalism is reflected throughout its extensive offerings.
-
+```
