@@ -50,7 +50,7 @@ Ensure you have the following installed:
 2. Run the notebook cells in order to initialize the summarization tool.  
 3. Use the function:  
    ```python
-   display_summary('https://www.nytimes.com/', 'Key Points')  
+   display_summary('https://www.nytimes.com/', 'Detailed')  
    ```  
 
 ---
@@ -67,27 +67,39 @@ Ensure you have the following installed:
 ## 📌 Example Output  
 For the URL `https://www.nytimes.com/` with the **Detailed** style:
 
-### **Detailed Summary of The New York Times Website**  
+### **Summary of The New York Times Website**
+#### **Overview**
+The New York Times (NYT) is an established American newspaper that provides comprehensive coverage of national and international news, as well as various other categories including politics, business, arts, lifestyle, opinion, and more. The website is known for its in-depth reporting, analyses, and inspirational storytelling.
 
-The **New York Times (NYT)** serves as a comprehensive source of news and information, covering topics such as U.S. and international news, politics, business, technology, arts, and lifestyle.  
+#### **Key Sections of the Website**
+- **U.S. News**: Covers local news, politics, education, health, and sports.
+- **World News**: Reports on global issues, including international relations, crises, and culture in various regions.
+- **Business**: Focuses on economics, finance, and technological advancements with sub-sections like DealBook and Your Money.
+- **Arts**: Features reviews and articles related to books, music, movies, and pop culture.
+- **Lifestyle**: Offers content on health, travel, food, and personal finance, including cooking tips and real estate advice.
+- **Opinion**: Includes editorials, guest essays, and columns from notable journalists and thought leaders.
+- **Podcasts**: Offers a range of audio content covering news analysis, cultural discussions, and storytelling.
+- **Games**: Provides interactive content such as crosswords, word puzzles, and logic games.
+- **Cooking**: Features recipes, cooking advice, and meal planning ideas from culinary experts.
 
-#### Main Sections:  
-- **U.S. News:** Coverage on politics, education, health, and climate.  
-- **World News:** Updates from Africa, the Americas, Asia, and Europe.  
-- **Business:** Stock market trends, technology impacts, and finance.  
-- **Arts & Lifestyle:** Literature, music, food, and travel.  
+#### **Notable Features**
+- **Newsletters**: The NYT offers various newsletters to cater to specific interests, including daily news briefings and thematic content.
+- **Podcasts**: Prominent programs like *The Daily* provide concise analyses of current events, while others focus on specific topics like technology and literature.
+- **Wirecutter**: A product review service that focuses on consumer electronics and other household products.
+- **The Athletic**: A sports coverage service providing personalized content about specific leagues and teams.
 
-#### Newsletter & Podcast Offerings:  
-- **The Morning:** A daily news briefing.  
-- **The Interpreter:** Weekly analysis of global events.  
+#### **Current Highlights**
+##### **Top Stories**
+- **Trade War Impact**: The analysis shows that Trump voters could be significantly affected by new tariffs imposed by other nations.
+- **Labor Abuse Investigation**: An in-depth piece investigates the conditions faced by East African maids in Saudi Arabia, highlighting systemic exploitation.
+- **Geopolitical Tensions**: Coverage on tensions between Israel and Lebanon and the implications for military recruitments within Israel.
+- **Cultural Features**: Articles discussing art, literature, and personal narratives that resonate with audiences.
 
-#### Multimedia & Special Reports:  
-- **Video content & Interactive articles** for engaging storytelling.  
-- **Investigative journalism** uncovering social and political issues.  
+##### **Recent Headlines**
+- **Marco Rubio's statement** on deportations following legal actions.
+- **A spotlight on the reactions** to Black Lives Matter mural removal in Washington D.C.
+- **Severe weather updates** and their impacts across regions.
 
-#### Opinion & Culture:  
-- **Columns and guest essays** on major global topics.  
-- **Cultural critiques, book reviews, and lifestyle recommendations.**  
+#### **Conclusion**
+The New York Times serves as a reliable resource for anyone seeking reliable and varied news coverage. Its diverse sections ensure that there is content available for nearly every reader's interest, and its commitment to quality journalism is reflected throughout its extensive offerings.
 
-#### Subscription Model:  
-NYT operates on a **subscription-based model**, offering exclusive articles, podcasts, and multimedia content.  
