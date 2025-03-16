@@ -6,13 +6,12 @@ This project is a **Website Summarizer** that extracts and summarizes content fr
 - **Detailed**: A more in-depth summary.
 - **Q&A**: A question-answer format.
 
-The summarization process is powered by OpenAI's API and is accessible via a **Gradio web interface**.
+The summarization process is powered by OpenAI's API and is accessible via a **Jupyter Notebook** interface.
 
 ## Features
 - **Extracts text content** from web pages, removing unnecessary elements like scripts and images.
 - **Utilizes OpenAI's GPT model** to generate structured summaries.
 - **Supports multiple summary styles** for different user preferences.
-- **Gradio-based UI** for easy interaction.
 - **Markdown formatted output** for better readability.
 
 ## Installation
@@ -40,24 +39,19 @@ Ensure you have the following installed:
 
 ## Usage
 ### Running in Jupyter Notebook
-You can use the `display_summary()` function directly in a Jupyter Notebook:
-```python
-from summarizer import display_summary
-
-display_summary('https://www.nytimes.com/', 'Key Points')
-```
-
-### Running the Gradio Web App
-Start the web interface by running:
-```sh
-python app.py
-```
-This will launch a local server. Open the provided URL in a browser to use the summarization tool.
+1. Open the Jupyter Notebook:
+   ```sh
+   jupyter notebook "GPT Web Summarizer.ipynb"
+   ```
+2. Run the notebook cells in order to initialize the summarization tool.
+3. Use the `display_summary()` function in a code cell:
+   ```python
+   display_summary('https://www.nytimes.com/', 'Key Points')
+   ```
 
 ## Technologies Used
 - **Python**
 - **OpenAI GPT**
-- **Gradio** (for UI)
 - **BeautifulSoup** (for web scraping)
 - **Requests** (for fetching web pages)
 - **Dotenv** (for API key management)
@@ -70,4 +64,3 @@ For the URL `https://www.nytimes.com/` with the **Key Points** style:
 - **World News**: International updates across multiple regions.
 - **Business & Tech**: Financial and technological developments.
 - **Opinion & Lifestyle**: Editorials, travel, arts, and entertainment.
-
