@@ -31,12 +31,36 @@ The system retrieves relevant documents using semantic search and combines them 
 4. Retrieve top-k relevant chunks  
 5. Pass retrieved context to the LLM for response generation  
 
+## How to Use
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/moatazsaad/LLM_Engineering_Portfolio.git
+   cd LLM_Engineering_Portfolio
+````
+
+2. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open the notebook
+
+   ```bash
+   jupyter notebook "RAG-based Knowledge Retrieval System.ipynb"
+   ```
+
+4. Add your documents to the knowledge base directory.
+
+5. Run the notebook cells to:
+
+   * Generate embeddings
+   * Store them in the vector database
+   * Query the system with natural language questions
+
 ## Use Cases
 
-- Knowledge base Q&A  
-- Document search and summarization  
-- Enterprise and internal data assistants  
-
-## Status
-
-Prototype implemented in a Jupyter Notebook for experimentation and learning.
+* Knowledge base Q&A
+* Document search and summarization
+* Enterprise and internal data assistants
