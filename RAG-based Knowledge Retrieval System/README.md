@@ -1,4 +1,3 @@
-```markdown
 # RAG-based Knowledge Retrieval System
 
 This project demonstrates a **Retrieval-Augmented Generation (RAG)** pipeline for accurate, context-aware question answering over custom knowledge bases.
@@ -38,4 +37,6 @@ The system retrieves relevant documents using semantic search and combines them 
 - Document search and summarization  
 - Enterprise and internal data assistants  
 
+## Status
 
+Prototype implemented in a Jupyter Notebook for experimentation and learning.
