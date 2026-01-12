@@ -55,11 +55,3 @@ If running in a script, execute:
 ```python
 python app.py
 ```
-
-## Example Output
-### Website Summary Example
-```
-## Summary of The New York Times
-- Covers U.S. and world news, business, and lifestyle.
-- Features opinion articles and multimedia content.
-- Recognized for its investigative journalism and credibility.
