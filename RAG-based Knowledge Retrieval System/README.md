@@ -33,27 +33,32 @@ The system retrieves relevant documents using semantic search and combines them 
 
 ## How to Use
 
-1. Clone the repository  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/moatazsaad/LLM_Engineering_Portfolio.git
-   cd LLM_Engineering_Portfolio
 ````
 
-2. Install dependencies
+2. Navigate to the RAG project folder:
+
+   ```bash
+   cd "RAG-based Knowledge Retrieval System"
+   ```
+
+3. Install dependencies from the local `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Open the notebook
+4. Open the notebook:
 
    ```bash
    jupyter notebook "RAG-based Knowledge Retrieval System.ipynb"
    ```
 
-4. Add your documents to the knowledge base directory.
+5. Add your documents to the `knowledge-base` folder.
 
-5. Run the notebook cells to:
+6. Run the notebook cells to:
 
    * Generate embeddings
    * Store them in the vector database
@@ -64,3 +69,5 @@ The system retrieves relevant documents using semantic search and combines them 
 * Knowledge base Q&A
 * Document search and summarization
 * Enterprise and internal data assistants
+If you want, I can also **add a note about switching between FAISS and Chroma** for clarity. Do you want me to do that?
+```
