@@ -69,5 +69,3 @@ The system retrieves relevant documents using semantic search and combines them 
 * Knowledge base Q&A
 * Document search and summarization
 * Enterprise and internal data assistants
-If you want, I can also **add a note about switching between FAISS and Chroma** for clarity. Do you want me to do that?
-```
