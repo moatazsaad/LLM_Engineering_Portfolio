@@ -12,5 +12,3 @@ My more recent LLM projects are in separate repositories:
 1. AI Powered Research Assistant 
 2. FlightAI Assistant  
 3. GPT Web Summarizer
-4. RAG-based Knowledge Retrieval System 
-
